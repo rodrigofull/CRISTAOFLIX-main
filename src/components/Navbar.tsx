@@ -29,9 +29,16 @@ export function Navbar() {
             <Link to="/" className="text-foreground hover:text-muted-foreground transition">
               Início
             </Link>
+
             <Link to="/videos" className="text-foreground hover:text-muted-foreground transition">
               Catálogo
             </Link>
+
+            {/* 🔥 ABA NOVA ADICIONADA AQUI */}
+            <Link to="/meus-livros" className="text-foreground hover:text-muted-foreground transition">
+              Meus Livros
+            </Link>
+
             {user && (
               <Link to="/profile" className="text-foreground hover:text-muted-foreground transition">
                 Meus Vídeos

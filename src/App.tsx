@@ -13,7 +13,7 @@ import Watch from "./pages/Watch";
 import Profile from "./pages/Profile";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
-
+import { MeusLivros } from "@/pages/MeusLivros";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -32,6 +32,7 @@ const App = () => (
             <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
             <Route path="/admin" element={<ProtectedRoute><Admin /></ProtectedRoute>} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/meus-livros" element={<MeusLivros />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>

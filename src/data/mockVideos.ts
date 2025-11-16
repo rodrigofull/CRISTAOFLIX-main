@@ -9,7 +9,7 @@ export const mockVideos: Video[] = [
     cover_url: 'https://explorandoabiblia.com.br/wp-content/uploads/2024/03/Bencao-efraim-e-manasses.png',
     youtube_id: 'dQw4w9WgXcQ',
     preview_url: 'dQw4w9WgXcQ',
-    price: 49.90,
+    price: 0,
     created_at: new Date().toISOString(),
   },
   {
@@ -20,7 +20,7 @@ export const mockVideos: Video[] = [
     cover_url: 'https://i.ytimg.com/vi/aJ-T7O-pYTk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAzVVltHZDlnmsDnhs1QWvPhmE55w',
     youtube_id: 'dQw4w9WgXcQ',
     preview_url: 'dQw4w9WgXcQ',
-    price: 39.90,
+    price: 0,
     created_at: new Date().toISOString(),
   },
   {
@@ -64,7 +64,7 @@ export const mockVideos: Video[] = [
     cover_url: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&h=450&fit=crop',
     youtube_id: 'dQw4w9WgXcQ',
     preview_url: 'dQw4w9WgXcQ',
-    price: 39.90,
+    price: 0,
     created_at: new Date().toISOString(),
   },
 ];
