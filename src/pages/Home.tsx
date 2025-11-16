@@ -9,11 +9,11 @@ export default function Home() {
   const navigate = useNavigate();
   const featuredVideo = mockVideos[0];
 
-  const categories = {
-    'Programação': mockVideos.filter(v => v.category === 'Programação'),
+  const categories = {'biblia': mockVideos.filter(v => v.category === 'biblia'),
     'Design': mockVideos.filter(v => v.category === 'Design'),
-    'Backend': mockVideos.filter(v => v.category === 'Backend'),
+    'videos': mockVideos.filter(v => v.category === 'videos'),
     'Todos': mockVideos,
+    
   };
 
   return (
