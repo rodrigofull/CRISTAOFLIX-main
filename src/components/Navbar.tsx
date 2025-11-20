@@ -23,7 +23,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <Link to="/" className="text-primary text-3xl font-bold">
-            CRISTÃOFLIX
+            CRISTÃOFLIX - Canal do Observador
           </Link>
           <div className="hidden md:flex items-center gap-6">
             <Link to="/" className="text-foreground hover:text-muted-foreground transition">
