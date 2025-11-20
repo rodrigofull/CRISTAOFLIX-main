@@ -4,17 +4,17 @@ export function MeusLivros() {
   const [livros] = useState([
     {
       id: "1",
-      titulo: "Conexão Homem Deus - Lançamento",
+      titulo: "Conexão Homem Deus - Lançamento em breve",
       capa: "https://iili.io/fHtZPO7.jpg",
     },
     {
       id: "2",
-      titulo: "O Fim dos Tempos",
+      titulo: "Os 2 dias  oseias - em produção",
       capa: "https://m.media-amazon.com/images/I/71V8M5FUlrL._AC_UF1000,1000_QL80_.jpg",
     },
     {
       id: "3",
-      titulo: "Os Profetas e Suas Profecias",
+      titulo: "O ultimo ano da terra - em breve",
       capa: "https://m.media-amazon.com/images/I/81rdqRLVLFSL._AC_UF1000,1000_QL80_.jpg",
     },
   ]);
