@@ -98,7 +98,7 @@ export function Navbar() {
 
           {/* REDES SOCIAIS MOBILE */}
           <div className="pt-4 border-t flex items-center justify-around">
-            <a href="https://youtube.com" target="_blank">
+            <a href="https://www.youtube.com/@Mister1osdomundo" target="_blank">
               <Youtube className="h-7 w-7 text-red-500" />
             </a>
             <a href="https://t.me" target="_blank">
