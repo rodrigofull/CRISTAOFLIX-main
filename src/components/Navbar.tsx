@@ -101,7 +101,7 @@ export function Navbar() {
             <a href="https://www.youtube.com/@Mister1osdomundo" target="_blank">
               <Youtube className="h-7 w-7 text-red-500" />
             </a>
-            <a href="https://t.me" target="_blank">
+            <a href="https://t.me/cursosobservador" target="_blank">
               <Send className="h-7 w-7 text-blue-400" />
             </a>
             <a href="https://instagram.com" target="_blank">
