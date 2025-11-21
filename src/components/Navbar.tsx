@@ -53,7 +53,7 @@ export function Navbar() {
           <a href="https://www.instagram.com/evangelistaobservador?igsh=a2NnZnllYmtpZGU4" target="_blank" className="hover:opacity-70 transition">
             <Instagram className="h-6 w-6 text-pink-500" />
           </a>
-          <a href="https://tiktok.com" target="_blank" className="hover:opacity-70 transition">
+          <a href="https://www.tiktok.com/@rodrigosilva.observador?_r=1&_t=ZM-91aw66yYMkW" target="_blank" className="hover:opacity-70 transition">
             <Music2 className="h-6 w-6 text-white" />
           </a>
         </div>
