@@ -34,7 +34,6 @@ export function Navbar() {
               Catálogo
             </Link>
 
-            {/* 🔥 ABA NOVA ADICIONADA AQUI */}
             <Link to="/meus-livros" className="text-foreground hover:text-muted-foreground transition">
               Meus Livros
             </Link>
@@ -52,7 +51,7 @@ export function Navbar() {
             <Search className="h-5 w-5" />
           </Button>
 
-          {user ? (
+          {user && (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="icon">
@@ -72,10 +71,6 @@ export function Navbar() {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-          ) : (
-            <Button onClick={() => navigate('/auth')} variant="default">
-              Entrar
-            </Button>
           )}
         </div>
       </div>
