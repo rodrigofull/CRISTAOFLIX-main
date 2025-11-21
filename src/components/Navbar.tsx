@@ -44,7 +44,7 @@ export function Navbar() {
 
         {/* REDES SOCIAIS DESKTOP */}
         <div className="hidden md:flex items-center gap-4 ml-4">
-          <a href="https://youtube.com" target="_blank" className="hover:opacity-70 transition">
+          <a href="https://www.youtube.com/@Mister1osdomundo" target="_blank" className="hover:opacity-70 transition">
             <Youtube className="h-6 w-6 text-red-500" />
           </a>
           <a href="https://t.me" target="_blank" className="hover:opacity-70 transition">
