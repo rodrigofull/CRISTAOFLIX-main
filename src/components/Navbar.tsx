@@ -43,20 +43,29 @@ export function Navbar() {
         </div>
 
         {/* REDES SOCIAIS DESKTOP */}
-        <div className="hidden md:flex items-center gap-4 ml-4">
-          <a href="https://www.youtube.com/@Mister1osdomundo" target="_blank" className="hover:opacity-70 transition">
-            <Youtube className="h-6 w-6 text-red-500" />
-          </a>
-          <a href="https://t.me" target="_blank" className="hover:opacity-70 transition">
-            <Send className="h-6 w-6 text-blue-400" />
-          </a>
-          <a href="https://www.instagram.com/evangelistaobservador?igsh=a2NnZnllYmtpZGU4" target="_blank" className="hover:opacity-70 transition">
-            <Instagram className="h-6 w-6 text-pink-500" />
-          </a>
-          <a href="https://www.tiktok.com/@rodrigosilva.observador?_r=1&_t=ZM-91aw66yYMkW" target="_blank" className="hover:opacity-70 transition">
-            <Music2 className="h-6 w-6 text-white" />
-          </a>
-        </div>
+<div className="hidden md:flex items-center gap-6 ml-6">
+
+  <a href="https://www.youtube.com/@Mister1osdomundo" target="_blank" className="flex flex-col items-center hover:opacity-70 transition">
+    <Youtube className="h-7 w-7 text-red-500" />
+    <span className="text-xs text-muted-foreground mt-1 font-medium">245k</span>
+  </a>
+
+  <a href="https://t.me/cursosobservador" target="_blank" className="flex flex-col items-center hover:opacity-70 transition">
+    <Send className="h-7 w-7 text-blue-400" />
+    <span className="text-xs text-muted-foreground mt-1 font-medium">18k</span>
+  </a>
+
+  <a href="https://www.instagram.com/evangelistaobservador?igsh=a2NnZnllYmtpZGU4" target="_blank" className="flex flex-col items-center hover:opacity-70 transition">
+    <Instagram className="h-7 w-7 text-pink-500" />
+    <span className="text-xs text-muted-foreground mt-1 font-medium">12k</span>
+  </a>
+
+  <a href="https://www.tiktok.com/@rodrigosilva.observador?_r=1&_t=ZM-91aw66yYMkW" target="_blank" className="flex flex-col items-center hover:opacity-70 transition">
+    <Music2 className="h-7 w-7 text-white" />
+    <span className="text-xs text-muted-foreground mt-1 font-medium">80k</span>
+  </a>
+
+</div>
 
         {/* AÇÕES DESKTOP */}
         <div className="hidden md:flex items-center gap-4">
@@ -97,20 +106,29 @@ export function Navbar() {
           <Link onClick={() => setOpen(false)} to="/meus-livros" className="block text-lg">Meus Livros</Link>
 
           {/* REDES SOCIAIS MOBILE */}
-          <div className="pt-4 border-t flex items-center justify-around">
-            <a href="https://www.youtube.com/@Mister1osdomundo" target="_blank">
-              <Youtube className="h-7 w-7 text-red-500" />
-            </a>
-            <a href="https://t.me/cursosobservador" target="_blank">
-              <Send className="h-7 w-7 text-blue-400" />
-            </a>
-            <a href="https://instagram.com" target="_blank">
-              <Instagram className="h-7 w-7 text-pink-500" />
-            </a>
-            <a href="https://tiktok.com" target="_blank">
-              <Music2 className="h-7 w-7 text-white" />
-            </a>
-          </div>
+<div className="pt-4 border-t flex items-center justify-around">
+
+  <a href="https://www.youtube.com/@Mister1osdomundo" target="_blank" className="flex flex-col items-center">
+    <Youtube className="h-8 w-8 text-red-500" />
+    <span className="text-xs text-muted-foreground mt-1 font-medium">245k</span>
+  </a>
+
+  <a href="https://t.me/cursosobservador" target="_blank" className="flex flex-col items-center">
+    <Send className="h-8 w-8 text-blue-400" />
+    <span className="text-xs text-muted-foreground mt-1 font-medium">18k</span>
+  </a>
+
+  <a href="https://www.instagram.com/evangelistaobservador?igsh=a2NnZnllYmtpZGU4" target="_blank" className="flex flex-col items-center">
+    <Instagram className="h-8 w-8 text-pink-500" />
+    <span className="text-xs text-muted-foreground mt-1 font-medium">12k</span>
+  </a>
+
+  <a href="https://www.tiktok.com/@rodrigosilva.observador?_r=1&_t=ZM-91aw66yYMkW" target="_blank" className="flex flex-col items-center">
+    <Music2 className="h-8 w-8 text-white" />
+    <span className="text-xs text-muted-foreground mt-1 font-medium">80k</span>
+  </a>
+
+</div>
 
           {user && (
             <Button variant="destructive" className="w-full flex items-center justify-center gap-2 mt-6" onClick={handleLogout}>
